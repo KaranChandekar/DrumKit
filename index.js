@@ -32,3 +32,7 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
     }
   });
 }
+
+document.addEventListener("keypress", function (event) {
+  console.log(event)
+})
